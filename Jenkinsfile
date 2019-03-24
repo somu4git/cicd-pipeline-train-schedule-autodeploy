@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "somu4docker" with your own Docker Hub username
+        //be sure to replace "somu4docker" with your own Docker username
         DOCKER_IMAGE_NAME = "somu4docker/train-schedule-kube-autodeploy"
         CANARY_REPLICAS = 0
     }
